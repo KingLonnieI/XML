@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mandalorian_Commando_Data>
+  <GroundInfantry Name="Mandalorian_Mercenary">
+    <LOD_Bias>5</LOD_Bias>
+    <Text_ID>TEXT_UNIT_MANDALORIAN_MERC</Text_ID>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+    <Encyclopedia_Text> TEXT_TOOLTIP_MANDALORIAN_MERC </Encyclopedia_Text>
+    <Land_Model_Name> NI_Mandalorian.alo </Land_Model_Name>
+    <Icon_Name>i_button_mando_command.tga</Icon_Name>
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>SURFACE_FX,LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Select_Box_Scale>0</Select_Box_Scale>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+    <Mass>1.0</Mass>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    <Is_Combustible>No</Is_Combustible>
+    <On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+    <Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+    <Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+    <Influences_Capture_Point>True</Influences_Capture_Point>
+    <Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Walk_Animation_Speed> 1.0 </Walk_Animation_Speed>
+    <Max_Speed>1.3</Max_Speed>
+    <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <FormationSpacing> .6 </FormationSpacing>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <OverrideAcceleration> .1 </OverrideAcceleration>
+    <OverrideDeceleration> .1 </OverrideDeceleration>
+    <FormationOrder> 2 </FormationOrder>
+    <FormationGrouping> Standard </FormationGrouping>
+    <Target_Bones>B_HEAD, B_CHEST</Target_Bones>
+    <Scale_Factor>1.5</Scale_Factor>
+    <Affiliation>Underworld, Rebel, Empire</Affiliation>
+    <Build_Cost_Credits>0</Build_Cost_Credits>
+    <Build_Time_Seconds>0</Build_Time_Seconds>
+    <Required_Timeline>0</Required_Timeline>
+    <Size_Value>10</Size_Value>
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage>8</Damage>
+    <Sensor_Range>35</Sensor_Range>
+    <Shield_Points>0</Shield_Points>
+    <Tactical_Health>35</Tactical_Health>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+    <Stealth_Capable>No</Stealth_Capable>
+    <Victory_Relevant>yes</Victory_Relevant>
+    <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+    <Create_Team>Yes</Create_Team>
+    <Hardpoints>
+			HP_Mando_Merc_Blaster_Rifle
+		</Hardpoints>
+    <Projectile_Types>Proj_Infiltrator_Blaster</Projectile_Types>
+    <Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+    <Projectile_Fire_Pulse_Delay_Seconds>0.05</Projectile_Fire_Pulse_Delay_Seconds>
+    <Projectile_Fire_Recharge_Seconds>1.1</Projectile_Fire_Recharge_Seconds>
+    <Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+    <Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <SFXEvent_Select>Unit_Select_Boba_Fett</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_Boba_Fett</SFXEvent_Move>
+    <SFXEvent_Attack>Unit_Attack_Boba_Fett</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_Boba_Fett</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
+    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>175.0</Attack_Move_Response_Range>
+    <Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+    <AI_Combat_Power>8</AI_Combat_Power>
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+    <MovementClass>Infantry</MovementClass>
+    <CategoryMask> Infantry </CategoryMask>
+    <Victory_Relevant>Yes</Victory_Relevant>
+    <Weather_Category>Infantry</Weather_Category>
+    <Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+    <Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+    <OccupationStyle>1x1</OccupationStyle>
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+    <Conversion_Ability_Changes_To_Enemy> Mandalorian_Mercenary_Converted_To_Enemy </Conversion_Ability_Changes_To_Enemy>
+    <Death_Fade_Time>0.25</Death_Fade_Time>
+    <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+    <Movie_Object>false</Movie_Object>
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>STIM_PACK</Type>
+        <Expiration_Seconds> 10.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+  </GroundInfantry>
+  <GroundInfantry Name="Mandalorian_Mercenary_02">
+    <Variant_Of_Existing_Type>Mandalorian_Mercenary</Variant_Of_Existing_Type>
+    <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+    <Projectile_Types>Proj_Ground_Thermal_Detonator</Projectile_Types>
+    <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+    <Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+    <Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
+    <Targeting_Min_Attack_Distance> 50.0 </Targeting_Min_Attack_Distance>
+    <Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Vehicle, 3.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
+    <Fire_Category_Restrictions> Infantry, Air </Fire_Category_Restrictions>
+  </GroundInfantry>
+  <GroundInfantry Name="Mandalorian_Mercenary_Converted_To_Enemy">
+    <Variant_Of_Existing_Type> Mandalorian_Mercenary </Variant_Of_Existing_Type>
+    <SFXEvent_Select> Unit_Select_Mercenary </SFXEvent_Select>
+    <SFXEvent_Move> Unit_Move_Mercenary </SFXEvent_Move>
+    <SFXEvent_Attack> Unit_Attack_Mercenary </SFXEvent_Attack>
+    <SFXEvent_Guard> Unit_Guard_Mercenary </SFXEvent_Guard>
+    <SFXEvent_Assist_Move> Unit_Assist_Move_Mercenary </SFXEvent_Assist_Move>
+    <SFXEvent_Assist_Attack> Unit_Assist_Attack_Mercenary </SFXEvent_Assist_Attack>
+    <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
+  </GroundInfantry>
+  <GroundInfantry Name="Mandalorian_Mercenary_P">
+    <Variant_Of_Existing_Type>Mandalorian_Mercenary</Variant_Of_Existing_Type>
+    <Affiliation>Mandalorian</Affiliation>
+  </GroundInfantry>
+  <GroundCompany Name="Underworld_Mandalorian_Assault_Squad">
+    <Text_ID>TEXT_UNIT_MANDALORIAN_MERC</Text_ID>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+    <Encyclopedia_Text> TEXT_TOOLTIP_MANDALORIAN_MERC  </Encyclopedia_Text>
+    <Icon_Name>i_button_mando_command.tga</Icon_Name>
+    <GUI_Row> 1 </GUI_Row>
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>65</Damage>
+    <Autoresolve_Health>155</Autoresolve_Health>
+    <Affiliation>Underworld, Rebel</Affiliation>
+    <Build_Cost_Credits>500</Build_Cost_Credits>
+    <Build_Time_Seconds>15</Build_Time_Seconds>
+    <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+    <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+    <Build_Initially_Locked>No</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Tech_Level>0</Tech_Level>
+    <Required_Timeline>0</Required_Timeline>
+    <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+    <Required_Star_Base_Level>0</Required_Star_Base_Level>
+    <Required_Special_Structures>U_Ground_Barracks</Required_Special_Structures>
+    <Required_Planets>Mandalore, Onderon, Raxus, OrdMantell, Iridonia, Concord_Dawn</Required_Planets>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>yes</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
+    <Create_Team_Type> Underworld_Manda_Team </Create_Team_Type>
+    <Company_Units>
+			Mandalorian_Mercenary_02, 
+			Mandalorian_Mercenary,
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary_02, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary_02, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary, 
+			Mandalorian_Mercenary_02
+		</Company_Units>
+    <Max_Squad_Size> 6 </Max_Squad_Size>
+    <SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+    <SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+    <SFXEvent_Build_Complete>Unit_Complete_Mercenary</SFXEvent_Build_Complete>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Mercenary</SFXEvent_Fleet_Move>
+    <Score_Cost_Credits>55</Score_Cost_Credits>
+    <Cheap_Bribe_Cost>5</Cheap_Bribe_Cost>
+    <Expensive_Bribe_Cost>10</Expensive_Bribe_Cost>
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+    <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <Unit_Ability>
+        <Type>STIM_PACK</Type>
+        <Expiration_Seconds> 10.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <Damage_Percent_When_Activated>.35</Damage_Percent_When_Activated>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+    <Maintenance_Cost>0.05</Maintenance_Cost>
+    <Population_Value>1</Population_Value>
+  </GroundCompany>
+  <GroundCompany Name="Mandalorian_Assault_Squad_P">
+    <Variant_Of_Existing_Type>Underworld_Mandalorian_Assault_Squad</Variant_Of_Existing_Type>
+    <Affiliation>Mandalorian</Affiliation>
+    <Company_Units>
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P, 
+			Mandalorian_Mercenary_P
+		</Company_Units>
+  </GroundCompany>
+  <!-- CONTAINER INFO -->
+  <Container Name="Underworld_Manda_Team">
+    <Text_ID>TEXT_UNIT_UNDERWORLD_MANDA_SQUAD</Text_ID>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+    <Encyclopedia_Text> TEXT_UNIT_UNDERWORLD_MANDA_ENCYC  </Encyclopedia_Text>
+    <Icon_Name>i_button_ni_mandalorian.tga</Icon_Name>
+    <Show_Name>No</Show_Name>
+    <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+    <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+    <SpaceBehavior>REVEAL</SpaceBehavior>
+    <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+    <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+    <MovementClass>Infantry</MovementClass>
+    <Garrison_Category> Infantry </Garrison_Category>
+    <Max_Speed> 1.1 </Max_Speed>
+    <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <FormationSpacing> 1.0 </FormationSpacing>
+    <FormationOrder> 2 </FormationOrder>
+    <MovementClass> Infantry </MovementClass>
+    <OccupationStyle>1x1</OccupationStyle>
+    <Is_Squashable> true </Is_Squashable>
+    <MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+    <ContainerArrangement> Dartboard </ContainerArrangement>
+    <OverrideAcceleration> .08 </OverrideAcceleration>
+    <OverrideDeceleration> .08 </OverrideDeceleration>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+    <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+    <Targeting_Max_Attack_Distance>175.0</Targeting_Max_Attack_Distance>
+    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>175.0</Attack_Move_Response_Range>
+    <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+    <Select_Box_Scale>60</Select_Box_Scale>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+    <CategoryMask>Infantry</CategoryMask>
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <Unit_Ability>
+        <Type>STIM_PACK</Type>
+        <Expiration_Seconds> 15.0 </Expiration_Seconds>
+        <Recharge_Seconds> 45.0 </Recharge_Seconds>
+        <Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+        <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+  </Container>
+</Mandalorian_Commando_Data>

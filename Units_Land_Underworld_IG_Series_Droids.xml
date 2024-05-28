@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IG_Droids_Data>
+  <GroundInfantry Name="IG_Droid">
+    <LOD_Bias>5</LOD_Bias>
+    <Text_ID>TEXT_UNIT_IGDROID</Text_ID>
+    <Land_Model_Name>Ui_Ig88.ALO</Land_Model_Name>
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Mass>1.0</Mass>
+    <Icon_Name>i_button_IG_Droids.tga</Icon_Name>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier, High_Ground</SurfaceFX_Name>
+    <Garrison_Category> Infantry </Garrison_Category>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    <Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+    <Max_Speed> 0.5 </Max_Speed>
+    <Alternate_Max_Speed> 2.5 </Alternate_Max_Speed>
+    <Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+    <Alternate_Max_Rate_Of_Turn> 6.0 </Alternate_Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 6.5 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 5.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 5.0 </Custom_Hard_YExtent>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <FormationSpacing> .5 </FormationSpacing>
+    <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+    <Min_Speed> .1 </Min_Speed>
+    <OverrideAcceleration> .1 </OverrideAcceleration>
+    <OverrideDeceleration> .1 </OverrideDeceleration>
+    <Max_Lift> .6 </Max_Lift>
+    <Scale_Factor>1.2</Scale_Factor>
+    <Type>Walk</Type>
+    <Deploys>No</Deploys>
+    <Affiliation>Underworld, Empire</Affiliation>
+    <Damage>12</Damage>
+    <Sensor_Range>20</Sensor_Range>
+    <Tactical_Health>70</Tactical_Health>
+    <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+    <Stealth_Capable>No</Stealth_Capable>
+    <Target_Bones>B_HEAD, B_CHEST</Target_Bones>
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+    <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+    <Victory_Relevant>yes</Victory_Relevant>
+    <Hardpoints>
+			HP_IG_Droid_Blaster_Rifle
+		</Hardpoints>
+    <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    <Projectile_Fire_Recharge_Seconds>0.20</Projectile_Fire_Recharge_Seconds>
+    <SFXEvent_Select>Unit_Select_IG88</SFXEvent_Select>
+    <SFXEvent_Move>Unit_Move_IG88</SFXEvent_Move>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_IG88</SFXEvent_Fleet_Move>
+    <SFXEvent_Attack>Unit_Attack_IG88</SFXEvent_Attack>
+    <SFXEvent_Guard>Unit_Guard_IG88</SFXEvent_Guard>
+    <SFXEvent_Fire>Unit_Storm_Trooper_Fire</SFXEvent_Fire>
+    <SFXEvent_Group_Move>Unit_Group_Move_IG88</SFXEvent_Group_Move>
+    <SFXEvent_Group_Attack>Unit_Group_Attack_IG88</SFXEvent_Group_Attack>
+    <SFXEvent_Health_Low_Warning> Unit_Health_Low_IG88 </SFXEvent_Health_Low_Warning>
+    <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_IG88 </SFXEvent_Health_Critical_Warning>
+    <Death_SFXEvent_Start_Die> Unit_Defeat_IG88 </Death_SFXEvent_Start_Die>
+    <SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+    <SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+    <SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+    <CategoryMask> Infantry </CategoryMask>
+    <MovementClass> Infantry </MovementClass>
+    <Property_Flags>Fodder</Property_Flags>
+    <OccupationStyle>1x1</OccupationStyle>
+    <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+    <No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+    <No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+    <Create_Team>Yes</Create_Team>
+    <AI_Combat_Power>7</AI_Combat_Power>
+    <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+    <Targeting_Priority_Set>AvoidAntiInfantryTurrets</Targeting_Priority_Set>
+    <Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+    <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+    <Weather_Category>Infantry</Weather_Category>
+    <Encyclopedia_Text>TEXT_TOOLTIP_IG88_DROID</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+    <Death_Fade_Time>0.25</Death_Fade_Time>
+    <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+    <Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+    <Presence_Induced_Animations>
+			Attention, 
+			Tyber_Zann,
+		</Presence_Induced_Animations>
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+        <SFXEvent_GUI_Unit_Ability_Activated>Unit_Guard_IG88</SFXEvent_GUI_Unit_Ability_Activated>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+  </GroundInfantry>
+  <GroundInfantry Name="Squad_IG88_Droid">
+    <Variant_Of_Existing_Type>IG_Droid</Variant_Of_Existing_Type>
+    <LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+    <Is_Squashable> Yes </Is_Squashable>
+    <Max_Speed> 1 </Max_Speed>
+    <Space_Layer> None </Space_Layer>
+    <Custom_Soft_Footprint_Radius> 3.0 </Custom_Soft_Footprint_Radius>
+    <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
+    <FormationRaggedness> .2 </FormationRaggedness>
+    <MaxJiggleDistance> 2 </MaxJiggleDistance>
+    <Hardpoints>
+			HP_IG_Droid_Blaster_Rifle
+		</Hardpoints>
+  </GroundInfantry>
+  <GroundCompany Name="IG_Droid_Company">
+    <LOD_Bias>5</LOD_Bias>
+    <Text_ID>TEXT_UNIT_IGDROID</Text_ID>
+    <Encyclopedia_Text>TEXT_TOOLTIP_IG88_DROID </Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+    <GUI_Row> 0 </GUI_Row>
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>18</Damage>
+    <Autoresolve_Health>100</Autoresolve_Health>
+    <Affiliation>Underworld, Empire</Affiliation>
+    <Build_Cost_Credits>160</Build_Cost_Credits>
+    <Piracy_Value_Credits>50</Piracy_Value_Credits>
+    <Build_Time_Seconds>15</Build_Time_Seconds>
+    <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+    <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+    <Tech_Level>0</Tech_Level>
+    <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+    <Required_Special_Structures> U_Ground_Mercenary_Outfitter, U_Ground_Droid_Works </Required_Special_Structures>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>yes</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Transport_Unit>Underworld_Infantry_Droid_Shuttle</Company_Transport_Unit>
+    <Create_Team_Type> IG_Droids_Team </Create_Team_Type>
+    <Company_Units> Squad_IG88_Droid, Squad_IG88_Droid, Squad_IG88_Droid, Squad_IG88_Droid, Squad_IG88_Droid, Squad_IG88_Droid,Squad_IG88_Droid, Squad_IG88_Droid, Squad_IG88_Droid</Company_Units>
+    <Max_Squad_Size> 9 </Max_Squad_Size>
+    <Icon_Name>i_button_Ig_Droids.tga</Icon_Name>
+    <SFXEvent_Build_Started>UHD_Build_Troops</SFXEvent_Build_Started>
+    <SFXEvent_Build_Cancelled>UHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
+    <SFXEvent_Build_Complete>Unit_Select_IG88</SFXEvent_Build_Complete>
+    <SFXEvent_Fleet_Move>Unit_Fleet_Move_IG88</SFXEvent_Fleet_Move>
+    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    <Tactical_Build_Cost_Multiplayer>160</Tactical_Build_Cost_Multiplayer>
+    <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+    <Tactical_Build_Prerequisites />
+    <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+    <Maintenance_Cost>0.05</Maintenance_Cost>
+    <Population_Value>1</Population_Value>
+    <Score_Cost_Credits>54</Score_Cost_Credits>
+  </GroundCompany>
+  <Container Name="IG_Droids_Team">
+    <Select_Box_Scale>65</Select_Box_Scale>
+    <Text_ID>TEXT_IG88TROOPER_SQUAD</Text_ID>
+    <Encyclopedia_Text>TEXT_TOOLTIP_IG88_DROID </Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+    <Show_Name>No</Show_Name>
+    <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+    <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+    <SpaceBehavior>REVEAL</SpaceBehavior>
+    <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+    <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+    <MovementClass>Infantry</MovementClass>
+    <Garrison_Category> Infantry </Garrison_Category>
+    <CategoryMask>Infantry</CategoryMask>
+    <Max_Speed> .8 </Max_Speed>
+    <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Infantry </UnitCollisionClass>
+    <FormationSpacing> 1 </FormationSpacing>
+    <MovementClass> Infantry </MovementClass>
+    <OccupationStyle>1x1</OccupationStyle>
+    <Is_Squashable> true </Is_Squashable>
+    <MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+    <ContainerArrangement> Rows </ContainerArrangement>
+    <FormationOrder> 2 </FormationOrder>
+    <Override_Acceleration> .1 </Override_Acceleration>
+    <Override_Deceleration> .1 </Override_Deceleration>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+    <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+    <Icon_Name>i_button_Ig_Droids.tga</Icon_Name>
+    <Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+    <Idle_Chase_Range>50.0</Idle_Chase_Range>
+    <Guard_Chase_Range>200.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+    <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+    <Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+  </Container>
+</IG_Droids_Data>
